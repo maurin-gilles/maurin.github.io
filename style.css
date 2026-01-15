@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-    font-size:3em;
+    font-size:3.5em;
 }
 
 h2{
@@ -89,6 +89,24 @@ p a {
     font-size:0px;
 }
 
+.poc{
+    font-size:2.5em;
+    margin-top:0.5em;
+}
+
+.biglist{
+    list-style:none;
+}
+
+.biglist li{
+    padding-bottom: 0.5em;
+}
+
+.biglist li h3{
+    font-size:150%;
+    margin-bottom: 0.5em;
+}
+
 @media only screen and (max-width: 767px) {
     body {
         margin: 15px 15px 100vh 15px;
@@ -124,8 +142,16 @@ p a {
         font-size:1.2em;
     }
 
-    p, a, li, b, i{
+    p, li{
         font-size:0.9em;
+    }
+
+    .biglist{
+        padding-left:0;
+    }
+
+    .biglist li ul{
+        padding-left:5vw;
     }
     
 }
